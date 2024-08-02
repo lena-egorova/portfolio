@@ -1,9 +1,7 @@
-import Image from "next/image";
+import Home from './pages/Home';
 
-export default function Home() {
+export default function LandingPage() {
   return (
-    <div> 
-      Portfolio
-    </div>
+    <Home />
   );
 }
